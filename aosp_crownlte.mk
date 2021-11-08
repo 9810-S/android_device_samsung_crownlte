@@ -23,21 +23,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/samsung/crownlte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_GAPPS_ARCH := arm64
+FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
-PRODUCT_NAME := arrow_crownlte
+PRODUCT_NAME := aosp_crownlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N960F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-# ArrowOS Properties
-DEVICE_MAINTAINER := Baddar90
+TARGET_BOOT_ANIMATION_RES := 1440
 
 BUILD_FINGERPRINT := "samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU6FTK1:user/release-keys"
 
