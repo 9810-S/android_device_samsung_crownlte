@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_crownlte.mk
+    $(LOCAL_DIR)/fluid_crownlte.mk
 
 COMMON_LUNCH_CHOICES := \
-     arrow_crownlte-userdebug \
-     arrow_crownlte-eng \
-     arrow_crownlte-user
+     fluid_crownlte-userdebug \
+     fluid_crownlte-eng \
+     fluid_crownlte-user
