@@ -32,7 +32,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
-PRODUCT_NAME := aosp_crownlte
+PRODUCT_NAME := aospa_crownlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N960F
 PRODUCT_MANUFACTURER := samsung
