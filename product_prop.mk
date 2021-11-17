@@ -18,4 +18,3 @@
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=530
-    ro.fluid.maintainer=AverageDood
