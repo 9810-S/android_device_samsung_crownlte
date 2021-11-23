@@ -49,4 +49,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.PDA=N960FXXU6FTK1 \
-    ro.build.fingerprint=samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU6FTK1:user/release-keys
+    ro.build.fingerprint=google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys
